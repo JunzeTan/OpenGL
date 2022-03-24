@@ -30,13 +30,13 @@ TTexture::TTexture(std::string in_filename):filename(in_filename)
 
 	glBindTexture(GL_TEXTURE_2D, textureId);
 
-	// Îªµ±Ç°°ó¶¨µÄÎÆÀí¶ÔÏóÉèÖÃ»·ÈÆ¡¢¹ıÂË·½Ê½
+	// ä¸ºå½“å‰ç»‘å®šçš„çº¹ç†å¯¹è±¡è®¾ç½®ç¯ç»•ã€è¿‡æ»¤æ–¹å¼
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 
-	// ¼ÓÔØ²¢Éú³ÉÎÆÀí
+	// åŠ è½½å¹¶ç”Ÿæˆçº¹ç†
 	int width, height, nrChannels;
 	unsigned char *data = nullptr;
 
