@@ -1,4 +1,4 @@
-# COMPSCI 3GC3 - Assignment 1
+# Opengl particle movement
 
 ## Platform
 Linux
