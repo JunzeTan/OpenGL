@@ -255,18 +255,18 @@ MyObj::MyObj(std::string filename)
 			for (int i = 1; i < fields.size(); ++i)
 			{
 				vector<string> vtn = Split(fields[i], '/');
-				if (vtn.size() == 1) //'586'∏Ò Ω
+				if (vtn.size() == 1) //'586'Ê†ºÂºè
 				{
 					indices[i - 1] = stoi(vtn[0]) - 1;
 					continue;
 				}
-				if (vtn.size() == 2) //'586/1'∏Ò Ω
+				if (vtn.size() == 2) //'586/1'Ê†ºÂºè
 				{
 					indices[i - 1] = stoi(vtn[0]) - 1;
 					texCoordIndices[i - 1] = stoi(vtn[1]) - 1;
 					continue;
 				}
-				if (vtn.size() == 3) //'586/2/1' ∏Ò Ω£¨ªÚ’ﬂ'586//1'∏Ò Ω
+				if (vtn.size() == 3) //'586/2/1' Ê†ºÂºèÔºåÊàñËÄÖ'586//1'Ê†ºÂºè
 				{
 					indices[i - 1] = stoi(vtn[0]) - 1;
 					texCoordIndices[i - 1] = stoi(vtn[1]) - 1;
