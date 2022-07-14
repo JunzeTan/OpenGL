@@ -1,4 +1,4 @@
-# Opengl programs
+# OpenGL programs
 
-## A few Opengl little games 
+## A few OpenGL little games 
 Compile instruction enclosed
